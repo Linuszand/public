@@ -16,7 +16,9 @@ def run_tests():
         '--disable-warnings', # Disable warnings in the output
         '-q',             # Quiet mode, for cleaner output
         '--tb=short',      # Short traceback (optional)
-        '-v'
+        '-v',
+        '-p', 'no:warning',
+        '-W', 'always'
     ])
 
     # Return the result code so that it can be handled by the shell script
