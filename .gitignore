@@ -1,1 +1,7 @@
-__pycache__/
+/__pycache__/
+venv/
+.pytest_cache/
+grouped_tests/
+.git/
+public/
+
